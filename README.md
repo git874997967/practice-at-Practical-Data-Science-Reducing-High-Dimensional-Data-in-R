@@ -13,3 +13,7 @@ Exercise and notes in Practical Data Scienceú║Reducing High Dimensional Data 
 
 predict（test，princ)[,1:5] 找出符合princ 降序的test属性前五个 
  总结  根据例子    抽取前20 个主要特征的预测结果进行建模 结果可能和使用全体特征 建模成绩相差无几  但是运行和调教速度有了质的飞跃
+ 完成了交叉验证和特征值选取的学习
+ 特征值通过varImp方法查看
+ 通过进行比较发现xgbtree比gbm好一些参数多对数据维度不是特别敏感速度快
+ 
