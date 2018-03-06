@@ -17,4 +17,7 @@ predict（test，princ)[,1:5] 找出符合princ 降序的test属性前五个
  特征值通过varImp方法查看
  通过进行比较发现xgbtree比gbm好一些参数多对数据维度不是特别敏感速度快
  
-glmnet的主成份分析参数选择不能通过简单的top选择
+glmnet的主成份分析参数选择不能通过简单的top选择 
+ fscaret包包含很多包的调参但是学习工程中遇到不知名的问题
+ 学到了 ROC 和集成学习的一些概念
+ 
